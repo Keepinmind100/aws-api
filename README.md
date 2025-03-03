@@ -6,7 +6,16 @@ AWS IAM 사용자를 관리하기 위한 FastAPI 기반 REST API입니다.
 
 1. 의존성 설치:
 ```bash
+
+uv venv .venv
+
+uv venv .venv --python=python3.11
+
+source .venv/bin/activate
+
 pip install -r requirements.txt
+
+
 ```
 
 2. 환경 변수 설정:
